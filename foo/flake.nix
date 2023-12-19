@@ -1,2 +1,2 @@
-{ outputs = { ... }: { default = 1; };
+{ outputs = { nixpkgs, ... }: { default = nixpkgs.lib.concatStrings [ ]; };
 }
