@@ -1,0 +1,2 @@
+{ outputs = { ... }: { default = 1; };
+}
